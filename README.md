@@ -70,18 +70,12 @@ Este proyecto es una API desarrollada en Java con Spring Boot para gestionar tó
    ```bash
    cd foroHub
    ```
-3. Configura la base de datos en el archivo `application.properties`:
-   ```properties
-   spring.datasource.url=jdbc:postgresql://localhost:5432/foroHub
-   spring.datasource.username=tu_usuario
-   spring.datasource.password=tu_contraseña
-   spring.jpa.hibernate.ddl-auto=update
-   ```
+3. Configura la base de datos en el archivo `application.properties`
 4. Compila y ejecuta la aplicación:
    ```bash
    ./mvnw spring-boot:run
    ```
-5. Accede a la API en: `http://localhost:8080`
+5. Accede a la API
 
 ## Seguridad
 - La autenticación se realiza mediante tokens JWT.
